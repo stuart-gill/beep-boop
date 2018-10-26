@@ -13,10 +13,9 @@ $(document).ready(function() {
 
     var result2 = result.map(function(v) {
       digits = v.toString().split('');
-      var realDigits=digits.map(Number);
-      if (realDigits.includes(1)){
+      if (digits.includes('1')){
         return v='boop'
-      } else if (realDigits.includes(0)){
+      } else if (digits.includes('0')){
         return v='beep'
       } else{
         return v;
