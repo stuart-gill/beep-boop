@@ -7,11 +7,28 @@ $(document).ready(function() {
     for (i=0; i<=input; i++){
       enumerated.push(i);
     }
-    var result = enumerated.map((v,i,a) => {
+    var result = enumerated.map(function(v) {
       return v%3===0? v=dave:v;
     })
-    console.log(result);
 
+    var result2 = result.map(function(v) {
+      digits = v.toString().split('');
+      var realDigits=digits.map(Number);
+      if (realDigits.includes(1)){
+        return v='boop'
+      } else if (realDigits.includes(0)){
+        return v='beep'
+      } else{
+        return v;
+      }
+    })
+    console.log(result2);
+
+
+    // var num = 123456;
+    // var digits = num.toString().split('');
+    // var realDigits = digits.map(Number)
+    // console.log(realDigits);
     // $("#story").append("<p>"+result+"</p>");
     // $("#story").show();
   });
