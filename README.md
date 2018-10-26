@@ -20,13 +20,13 @@
 
 
 ## Setup/Installation Requirements
-_Check out the website in your browser at this link: https://stuart-gill.github.io/beep-boop _
-
+_Check out the website in your browser at this link:_ https://stuart-gill.github.io/beep-boop
+_Alternatively, you may clone the beep-boop directory from github and open the index.html file in the browser of your choice._
 _This website is best viewed in Chrome_
 
 ## Known Bugs
 
-_There are no known bugs on this website as of 10.12.18_
+_User is not prevented from inputting non-alphabetical characters in the name input form_
 
 ## Support and contact details
 
