@@ -5,8 +5,9 @@
 #### By _**Stuart Gill**_
 
 ## Specifications
-### Program takes a user inputted integer 'n', enumerates from 0 up to n (0, 1, 2, up to n), and replaces some of the numbers according to the following rules, listed here in decreasing priority:
-* _Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that. "_
+### Program takes inputted user name and user inputted integer 'n', enumerates from 0 up to n (0, 1, 2, up to n), and replaces some of the numbers according to the following rules, listed here in decreasing priority:
+
+* _Program replaces numbers divisible by 3 with "I'm sorry, [user name]. I'm afraid I can't do that. "_
   * _Example Input: 12_
   * _Example Output: I'm sorry, Dave. I'm afraid I can't do that._
 * _Program replaces numbers containing the digit 1 with "Boop!"_
@@ -19,8 +20,8 @@
 
 
 ## Setup/Installation Requirements
-_Check out the website in your browser at this link:_
-[Beep Boop](https://stuart-gill.github.io/beep-boop
+_Check out the website in your browser at this link: https://stuart-gill.github.io/beep-boop _
+
 _This website is best viewed in Chrome_
 
 ## Known Bugs
