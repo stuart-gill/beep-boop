@@ -19,8 +19,9 @@
 
 
 ## Setup/Installation Requirements
-*Check out the website in your browser at this link: [Beep Boop](https://stuart-gill.github.io/beep-boop
-* _This website is best viewed in Chrome_*
+_Check out the website in your browser at this link:_
+[Beep Boop](https://stuart-gill.github.io/beep-boop
+_This website is best viewed in Chrome_
 
 ## Known Bugs
 
