@@ -1,7 +1,8 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
+  $("#form").submit(function(event) {
     event.preventDefault()
     var userInput = $("#userInput").val();
+    var userName = $("#userName").val();
 
 var enumerated = [];
 for (i=0; i<=userInput; i++){
@@ -9,7 +10,7 @@ for (i=0; i<=userInput; i++){
 }
 var translatedArray = enumerated.map(function(v) {
   if (v%3===0){
-    return v="I'm sorry, Dave. I'm afraid I can't do that.";
+    return v="I'm sorry " + userName + " I'm afraid I can't do that.";
   } else{
     digits = v.toString().split('');
     if (digits.includes('1')){

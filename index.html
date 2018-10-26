@@ -11,8 +11,10 @@
     <div class="container">
       <h1>Enter a number and hit submit; I'll translate it to  <em>Space Odyssey</em> Hal speak.</h1>
       <div>
-        <form id="formOne">
+        <form id="form">
           <div class="form-group">
+            <label for="name">Enter your name:</label>
+            <input id="userName" class="form-control" type="text" required>
             <label for="sentence">Enter a positive integer:</label>
             <input id="userInput" class="form-control" type="number" min="0" required>
           </div>
@@ -20,7 +22,6 @@
         </form>
       </div>
       <br><br>
-
       <div id="result">
         <h1>Here is the result :</h1>
         <p></p>

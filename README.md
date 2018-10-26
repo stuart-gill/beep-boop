@@ -6,7 +6,7 @@
 
 ## Specifications
 ### Program takes a user inputted integer 'n', enumerates from 0 up to n (0, 1, 2, up to n), and replaces some of the numbers according to the following rules, listed here in decreasing priority:
-* _Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that. "_*
+* _Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that. "_
   * _Example Input: 12_
   * _Example Output: I'm sorry, Dave. I'm afraid I can't do that._
 * _Program replaces numbers containing the digit 1 with "Boop!"_
