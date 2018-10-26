@@ -1,14 +1,13 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault()
-    var input = $("#userInput").val();
+    var userInput = $("#userInput").val();
+
     var enumerated = [];
-    for (i=0; i<=input; i++){
+    for (i=0; i<=userInput; i++){
       enumerated.push(i);
     }
-
-
-    var result = enumerated.map(function(v) {
+    var translatedArray = enumerated.map(function(v) {
       if (v%3===0){
         return v="I'm sorry, Dave. I'm afraid I can't do that.";
       } else{
@@ -23,7 +22,7 @@ $(document).ready(function() {
       }
     })
 
-    $("#story").append("<p>"+result.join(' ')+"</p>");
-    $("#story").show();
+    $("#result, p").text(translatedArray.join(' '));
+    $("#result").show();
   });
 });

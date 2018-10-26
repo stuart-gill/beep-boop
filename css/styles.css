@@ -1,3 +1,11 @@
-#story {
+#result {
   display:none;
+}
+/* img {
+    opacity: 0.5;
+} */
+
+body {
+    /* background-color: lightblue; */
+    background-image: url(img/hal9000.jpg);
 }
