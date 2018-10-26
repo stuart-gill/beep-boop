@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault()
-    var userInput = $("#userInput").val();
+    var userInput = Math.abs($("#userInput").val());
 
     var enumerated = [];
     for (i=0; i<=userInput; i++){

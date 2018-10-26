@@ -6,7 +6,10 @@
 
 ## Specifications
 
-*_Program replaces 0 with "Beep!"_
+*_Program replaces 0 with "Beep!"
+**_Example Input: 0_**
+
+
 
 
 ## Setup/Installation Requirements
