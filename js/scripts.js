@@ -8,20 +8,20 @@ $(document).ready(function() {
       enumerated.push(i);
     }
     var result = enumerated.map(function(v) {
-      return v%3===0? v=dave:v;
-    })
-
-    var result2 = result.map(function(v) {
-      digits = v.toString().split('');
-      if (digits.includes('1')){
-        return v='boop'
-      } else if (digits.includes('0')){
-        return v='beep'
+      if (v%3===0){
+        return v=dave;
       } else{
-        return v;
+        digits = v.toString().split('');
+        if (digits.includes('1')){
+          return v='boop'
+        } else if (digits.includes('0')){
+          return v='beep'
+        } else{
+          return v;
+        }
       }
     })
-    console.log(result2);
+    console.log(result);
 
 
     // var num = 123456;
